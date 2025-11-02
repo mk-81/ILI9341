@@ -20,7 +20,7 @@ setup(
     url="https://github.com/mk-81/ILI9341",
 
     # Dependencies/Other modules required for your package to work
-    install_requires=["numpy", "RPi.GPIO"],
+    install_requires=["numpy", "rpi-lgpio"],
 
     ext_modules=cythonize(
                     modules,
